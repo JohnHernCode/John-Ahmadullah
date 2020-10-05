@@ -1,0 +1,24 @@
+#nav-bar ul{
+    list-style: none;
+    margin: 0;
+}
+#nav-bar li{
+    display: inline;
+}
+#nav-bar ul a{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+#nav-bar{
+    position: fixed;
+    top: 0;
+}
+@media only screen and  (max-width:600px){
+    #nav-bar a{
+        display: block;
+    }
+}
+#form{
+    display: flex;
+}

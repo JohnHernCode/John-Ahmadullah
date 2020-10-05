@@ -26,8 +26,8 @@
     <nav id='nav-bar'>
     <ul>
     <li><a href='#place1' class='nav-link'>link 1</a></li>
-    <li><a href='#place2' class='nav-link'>link 1</a></li>
-    <li><a href='#place3' class='nav-link'>link 1</a></li>
+    <li><a href='#place2' class='nav-link'>link 2</a></li>
+    <li><a href='#place3' class='nav-link'>link 3</a></li>
   </ul>
     </nav>
     </header>
@@ -38,9 +38,11 @@
     <video controls id='video'>
     <source src='https://www.youtube.com/watch?v=WSuSCQcc2P8'>
     </video>
-    <form id='form' method='POST'>
-      <input type="email" id="email" required placeholder="email" pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$">
-     <input type='submit' id='submit' value='submit' formaction='https://www.freecodecamp.com/email-submit'>
+
+    <form id='form' method='post' action='https://www.freecodecamp.com/email-submit'>
+      <input type="email" id="email" name='email' required placeholder="email" pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$">
+     <input type='submit' id='submit' value='get started' class='btn' >
+     
     </form>
       
       
