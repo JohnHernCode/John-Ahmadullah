@@ -38,9 +38,9 @@
     <video controls id='video'>
     <source src='https://www.youtube.com/watch?v=WSuSCQcc2P8'>
     </video>
-    <form id='form'>
-      <input type="email" id="email" required placeholder="email" pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/">
-      <input id="submit"></input>
+    <form id='form' method='POST'>
+      <input type="email" id="email" required placeholder="email" pattern="[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$">
+     <input type='submit' id='submit' value='submit' formaction='https://www.freecodecamp.com/email-submit'>
     </form>
       
       
